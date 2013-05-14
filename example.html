@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Flot - Downsampling Plugin</title>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="http://www.flotcharts.org/flot/jquery.flot.js"></script>
+  <script type="text/javascript" src="jquery.flot.downsample.js"></script>
+
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+  <script type="text/javascript" src="demo_data.js"></script>
+
+  <script type="text/javascript" src="example.js"></script>
+  <link rel="stylesheet" type="text/css" href="example.css" />
+
+</head>
+
+<body>
+
+<div class="top">Downsampling Plugin for Flot Charts</div>
+
+<div id="content">
+  <h2>Basic Downsampling Example</h2>
+
+  <div class="demo-container">
+    <div id="placeholder"></div>
+  </div>
+
+  <p>
+    <label for="data">Data:</label>
+    <select id="data">
+      <option value="0">Demo 1</option>
+      <option value="1">Demo 2</option>
+      <option value="2">Demo 3</option>
+    </select>
+
+    <label for="threshold">Threshold:</label>
+    <input type="text" id="threshold" readonly/> (Total count: <span id="length">0</span>)
+  </p>
+  <div id="slider-threshold"></div>
+  <hr />
+
+  <p>
+  This plugin for <a href="http://www.flotcharts.org">Flot charts</a>
+  downsamples data before rendering the chart.
+  The purpose is to try to retaining the visual characteristics of the 
+  original line using considerably fewer data points.<br />
+  The algorithm used in this plugin is described in a 
+  Master's thesis (in progress) in Computer Science by Sveinn Steinarsson 
+  at the <a href="http://english.hi.is/">University of Iceland</a>.
+  The topic of the thesis is how to <i>downsample time series for visual representation</i> 
+  and was initially suggested by <a href="http://datamarket.com/">DataMarket</a>.
+  JavaScript optimization was done with the help of <a href="https://github.com/borgar">Borgar Þorsteinsson</a>.
+
+  </p>
+  <a href="https://github.com/sveinn-steinarsson/flot-downsample/">Flot Downsample plugin on Github</a>
+</div>
+
+<div class="bottom">
+  Sveinn Steinarsson - sveiste [at] hi.is
+  <br />
+  <a href="http://datamarket.com/">DataMarket, Inc</a> | 
+  <a href="http://english.hi.is/">University of Iceland</a>
+</div>
+
+
+</body>
+</html>
