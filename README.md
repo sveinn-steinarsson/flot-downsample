@@ -5,7 +5,7 @@ flot-downsample: Downsample plugin for Flot
 * Special thanks: [Borgar Þorsteinsson](https://github.com/borgar) and [DataMarket](http://datamarket.com/)
 
 This plugin for [Flot charts](http://www.flotcharts.org) downsamples
-data before rendering the chart. The purpose is to try to retaining the
+data before rendering the chart. The purpose is to try retain the
 visual characteristics of the original line using considerably fewer data points.
 The algorithm used in this plugin is described in a 
 Master's thesis (in progress) in Computer Science by Sveinn Steinarsson 
