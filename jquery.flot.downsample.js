@@ -55,8 +55,7 @@ THE SOFTWARE.
             var avg_x = 0,
                 avg_y = 0,
                 avg_range_start  = floor( ( i + 1 ) * every ) + 1,
-                avg_range_end    = floor( ( i + 2 ) * every ) + 1,
-
+                avg_range_end    = floor( ( i + 2 ) * every ) + 1;
             avg_range_end = avg_range_end < data_length ? avg_range_end : data_length;
 
             var avg_range_length = avg_range_end - avg_range_start;
@@ -70,7 +69,7 @@ THE SOFTWARE.
 
             // Get the range for this bucket
             var range_offs = floor( (i + 0) * every ) + 1,
-            range_to   = floor( (i + 1) * every ) + 1;
+                range_to   = floor( (i + 1) * every ) + 1;
 
             // Point a
             var point_a_x = data[ a ][ 0 ] * 1, // enforce Number (value may be Date)
