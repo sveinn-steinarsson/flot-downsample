@@ -7,8 +7,8 @@ flot-downsample: Downsample plugin for Flot
 This plugin for [Flot charts](http://www.flotcharts.org) downsamples
 data before rendering the chart. The purpose is to try retain the
 visual characteristics of the original line using considerably fewer data points.
-The algorithm used in this plugin is described in a 
-Master's thesis (in progress) in Computer Science by Sveinn Steinarsson 
+The algorithm (called *Largest-Triangle-Three-Buckets*) used in this plugin is described in a 
+Master's thesis (see [hdl.handle.net/1946/15343](http://hdl.handle.net/1946/15343)) in Computer Science by Sveinn Steinarsson 
 at the [University of Iceland](http://english.hi.is/). 
 The topic of the thesis is how to *downsample time series for visual representation* 
 and was initially suggested by [DataMarket](http://datamarket.com/). 
