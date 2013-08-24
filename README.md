@@ -17,7 +17,9 @@ JavaScript optimization was done with the help of [Borgar Þorsteinsson](https:/
 
 Demo
 ----
-Demo can viewed at [flot.base.is](http://flot.base.is/)
+Demo can viewed at [flot.base.is](http://flot.base.is/).
+
+Additional demo concerning chart resizing is also available at [flot.base.is/demo-resize](http://flot.base.is/demo-resize/) 
 
 
 Usage
