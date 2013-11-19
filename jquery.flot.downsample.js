@@ -120,7 +120,7 @@ THE SOFTWARE.
         init: init,
         options: options,
         name: "downsample",
-        version: "0.1"
+        version: "1.0"
     });
 
 })(jQuery);
