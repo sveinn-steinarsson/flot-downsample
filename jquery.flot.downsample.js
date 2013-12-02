@@ -100,7 +100,9 @@ THE SOFTWARE.
 
 
     function processRawData ( plot, series ) {
-        series.data = largestTriangleThreeBuckets( series.data, series.downsample.threshold );
+        if ( series.pie === undefined || series.pie.show !== true ) {
+            series.data = largestTriangleThreeBuckets( series.data, series.downsample.threshold );
+        }
     }
 
 
