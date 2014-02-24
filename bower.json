@@ -1,0 +1,23 @@
+{
+  "name": "flot-downsample",
+  "version": "1.0",
+  "homepage": "https://github.com/sveinn-steinarsson/flot-downsample",
+  "authors": [
+    "Sveinn Steinarsson"
+  ],
+  "description": "Downsample plugin for Flot",
+  "main": "jquery.flot.downsample.js",
+  "keywords": [
+    "flot",
+    "plugin",
+    "downsample"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
