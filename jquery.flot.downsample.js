@@ -48,13 +48,15 @@ THE SOFTWARE.
             next_a;
 
         sampled[ sampled_index++ ] = data[ a ]; // Always add the first point
-
+		
+		// Determine the boundaries for the current and next buckets
+		var bucket_start	= 0,
+			bucket_center 	= ceil( every );
+			
         for (var i = 0; i < threshold - 2; i++) {
-			// Determine the boundaries for the current and next buckets
-			var bucket_start	= ceil( (i + 0) * every ),
-				bucket_center 	= ceil( (i + 1) * every ),
-				bucket_end 		= ceil( (i + 2) * every );
-				
+			// Calculate the boundary of the third bucket
+			var bucket_end 		= ceil( (i + 2) * every );
+			
             // Calculate point average for next bucket (containing c)
             var avg_x = 0,
                 avg_y = 0,
@@ -98,6 +100,9 @@ THE SOFTWARE.
 
             sampled[ sampled_index++ ] = data[ next_a ]; // Pick this point from the bucket
             a = next_a; // This a is the next a (chosen b)
+			
+			bucket_start 	= bucket_center;	// Shift the buckets over by one
+			bucket_center 	= bucket_end;		// Center becomes the start, and the end becomes the center
         }
 
         sampled[ sampled_index++ ] = data[ data_length - 1 ]; // Always add last
