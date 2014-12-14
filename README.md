@@ -51,6 +51,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [node.js](https://github.com/pingec/downsample-lttb) by Matej Drolc
 * [Java](https://github.com/drcrane/downsample) by drcrane
 * [Scala](https://github.com/tackley/smoothing) by Graham Tackley
+* [R](https://github.com/javiljoen/LTTB) by Jack Viljoen
 * [Highcarts Plugin](https://github.com/sveinn-steinarsson/highcharts-downsample) by Sveinn Steinarsson
 
 **Note:** I have not tested all these versions and some might have different or additional features.
