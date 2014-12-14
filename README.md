@@ -52,6 +52,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [Java](https://github.com/drcrane/downsample) by drcrane
 * [Scala](https://github.com/tackley/smoothing) by Graham Tackley
 * [R](https://github.com/javiljoen/LTTB) by Jack Viljoen
+* [Javascript (without the flot plugin)](https://github.com/joshcarr/largest-triangle-three-buckets.js) by Josh Carr
 * [Highcarts Plugin](https://github.com/sveinn-steinarsson/highcharts-downsample) by Sveinn Steinarsson
 
 **Note:** I have not tested all these versions and some might have different or additional features.
