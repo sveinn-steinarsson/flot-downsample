@@ -54,6 +54,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [R](https://github.com/javiljoen/LTTB) by Jack Viljoen
 * [Javascript (without the flot plugin)](https://github.com/joshcarr/largest-triangle-three-buckets.js) by Josh Carr
 * [Highcarts Plugin](https://github.com/sveinn-steinarsson/highcharts-downsample) by Sveinn Steinarsson
+* [PHP](https://github.com/dbojdo/downsampling) by dbojdo
 
 **Note:** I have not tested all these versions and some might have different or additional features.
 
