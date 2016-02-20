@@ -43,6 +43,7 @@ Articles about the algorithm (LTTB)
 -----
 * [The Challenge of Metrics Visualization](http://blackops.io/blog/2014/05/time-series-graphs-and-downsampling/) by Mark Troyer
 * [Downsampling data – Not a trivial task](http://blog.datamarket.com/2014/02/28/downsampling-data-not-a-trivial-task/) by DataMarket
+* [Sampling large datasets in d3fc](http://blog.scottlogic.com/2015/11/16/sampling-large-data-in-d3fc.html) by William Ferguson
 
 
 The algorithm (LTTB) adapted for other programming languages or frameworks
