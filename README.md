@@ -57,6 +57,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [Highcarts Plugin](https://github.com/sveinn-steinarsson/highcharts-downsample) by Sveinn Steinarsson
 * [PHP](https://github.com/dbojdo/downsampling) by dbojdo
 * [Python] (https://github.com/devoxi/lttb-py) by Olivier Devoisin
+* [Perl] (https://github.com/troxel/LargestTriangleThreeBuckets) by troxel
 
 **Note:** I have not tested all these versions and some might have different or additional features.
 
