@@ -60,6 +60,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [Python] (https://github.com/devoxi/lttb-py) by Olivier Devoisin
 * [Perl] (https://github.com/troxel/LargestTriangleThreeBuckets) by troxel
 * [C++ Qt] (https://github.com/temap/misc/blob/master/src/lttb.hpp) by Artyom Panfilov
+* [Ruby] (https://github.com/Jubke/lttb) by Julian Lübke
 
 **Note:** I have not tested all these versions and some might have different or additional features.
 
