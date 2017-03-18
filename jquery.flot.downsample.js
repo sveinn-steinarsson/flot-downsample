@@ -98,8 +98,27 @@ THE SOFTWARE.
         return sampled;
     }
 
+    function filterVisibleData( data, series ) {
+        var xmin = series.xaxis.options.min;
+        var xmax = series.xaxis.options.max;
+        var threshold = series.downsample.threshold;
+        
+        if (threshold >= data.length || threshold === 0 || xmin == null || xmax == null) {
+            return data; // Nothing to do
+        }
+
+        /* actual filtering is done via grep function */
+        var filtered = $.grep(data, function(elem, index) {
+            var x = elem[0];
+            //note that we filter only on x, to allow y values to be outside of the visible range
+            return ((xmin <= x) && (x <= xmax));
+        });
+
+        return filtered;
+    }
 
     function processRawData ( plot, series ) {
+        series.data = filterVisibleData(series.data, series);
         series.data = largestTriangleThreeBuckets( series.data, series.downsample.threshold );
     }
 
