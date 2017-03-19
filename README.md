@@ -53,10 +53,12 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [Go](https://github.com/dgryski/go-lttb) by Damian Gryski
 * [node.js](https://github.com/pingec/downsample-lttb) by Matej Drolc
 * [Java](https://github.com/drcrane/downsample) by drcrane
+* [Java8](https://github.com/ggalmazor/lt_downsampling_java8) by Guillermo Gutierrez Almazor
 * [Scala](https://github.com/tackley/smoothing) by Graham Tackley
 * [R](https://github.com/javiljoen/LTTB) by Jack Viljoen
 * [Javascript (without the flot plugin)](https://github.com/joshcarr/largest-triangle-three-buckets.js) by Josh Carr
 * [Highcarts Plugin](https://github.com/sveinn-steinarsson/highcharts-downsample) by Sveinn Steinarsson
+* [Chart.js Plugin](https://github.com/AlbinoDrought/chartjs-plugin-downsample) by Sean
 * [PHP](https://github.com/dbojdo/downsampling) by dbojdo
 * [Python](https://github.com/devoxi/lttb-py) by Olivier Devoisin
 * [Python + Numpy](https://github.com/javiljoen/lttb.py) by Jack Viljoen
