@@ -66,6 +66,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [C++ Qt](https://github.com/temap/misc/blob/master/src/lttb.hpp) by Artyom Panfilov
 * [Ruby](https://github.com/Jubke/lttb) by Julian Lübke
 * [Swift](https://github.com/GuillaumeBeal/LTTB) by Guillaume Beal
+* [Rust](https://github.com/jeromefroe/lttb-rs) by Jerome Froelich
 
 **Note:** I have not tested all these versions and some might have different or additional features.
 
