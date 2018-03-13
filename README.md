@@ -50,6 +50,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 -----
 * [C#](https://gist.github.com/DanielWJudge/63300889f27c7f50eeb7) by Daniel Judge
 * [C#](https://gist.github.com/adrianseeley/264417d295ccd006e7fd) by Adrian Seeley
+* [Elixir](https://github.com/ispirata/ex_lttb) by Riccardo Binetti
 * [Go](https://github.com/dgryski/go-lttb) by Damian Gryski
 * [node.js](https://github.com/pingec/downsample-lttb) by Matej Drolc
 * [Java](https://github.com/drcrane/downsample) by drcrane
