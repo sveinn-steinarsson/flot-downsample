@@ -43,6 +43,7 @@ Articles related to the algorithm (LTTB)
 -----
 
 * [The Billion Data Point Challenge](https://eng.uber.com/billion-data-point-challenge/) by Benjamin Raskin and Nikunj Aggarwal at Uber Technologies Inc.
+* [Visualize Big Data on Mobile](http://dduraz.com/2019/04/26/data-visualization-mobile/) byb dduraz
 * [The Challenge of Metrics Visualization](http://blackops.io/blog/2014/05/time-series-graphs-and-downsampling/) by Mark Troyer
 * [Downsampling data – Not a trivial task](https://web.archive.org/web/20140625052324/https://blog.datamarket.com/2014/02/28/downsampling-data-not-a-trivial-task/) by DataMarket (The company was acquired by Qlik. Linking to archived version since the original blog is no longer accessible)
 * [Sampling large datasets in d3fc](http://blog.scottlogic.com/2015/11/16/sampling-large-data-in-d3fc.html) by William Ferguson
