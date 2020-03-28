@@ -69,6 +69,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [PHP](https://github.com/dbojdo/downsampling) by dbojdo
 * [Python](https://github.com/devoxi/lttb-py) by Olivier Devoisin
 * [Python + Numpy](https://github.com/javiljoen/lttb.py) by Jack Viljoen
+* [Python using C](https://github.com/dgoeries/lttbc) by dgoeries
 * [Perl](https://github.com/troxel/LargestTriangleThreeBuckets) by troxel
 * [C++](https://github.com/parkertomatoes/lttb-cpp) by parkertomatoes
 * [Ruby](https://github.com/Jubke/lttb) by Julian Lübke
