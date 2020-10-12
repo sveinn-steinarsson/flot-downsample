@@ -77,6 +77,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [Ruby](https://github.com/Jubke/lttb) by Julian Lübke
 * [Swift](https://github.com/GuillaumeBeal/LTTB) by Guillaume Beal
 * [Rust](https://github.com/jeromefroe/lttb-rs) by Jerome Froelich
+* [Clojure](https://github.com/viesti/clj-lttb) by Kimmo Koskinen
 
 **Note:** I have not tested all these versions and some might have different or additional features.
 
