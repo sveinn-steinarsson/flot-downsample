@@ -57,28 +57,29 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 -----
 * [C#](https://gist.github.com/DanielWJudge/63300889f27c7f50eeb7) by Daniel Judge
 * [C#](https://gist.github.com/adrianseeley/264417d295ccd006e7fd) by Adrian Seeley
-* [MSChartExtension in C#](https://github.com/Code-Artist/MSChartExtension/blob/master/MSChartExtension/DownSampling.cs) by Code Artist
-* [Elixir](https://github.com/ispirata/ex_lttb) by Riccardo Binetti
-* [Go](https://github.com/dgryski/go-lttb) by Damian Gryski
-* [node.js](https://github.com/pingec/downsample-lttb) by Matej Drolc
-* [Java](https://github.com/drcrane/downsample) by drcrane
-* [Java8](https://github.com/ggalmazor/lt_downsampling_java8) by Guillermo Gutierrez Almazor
-* [Scala](https://github.com/tackley/smoothing) by Graham Tackley
-* [R](https://github.com/javiljoen/LTTB) by Jack Viljoen
-* [Javascript (without the flot plugin)](https://github.com/joshcarr/largest-triangle-three-buckets.js) by Josh Carr
-* [Highcarts Plugin](https://github.com/sveinn-steinarsson/highcharts-downsample) by Sveinn Steinarsson
-* [Chart.js Plugin](https://github.com/AlbinoDrought/chartjs-plugin-downsample) by Sean
-* [PHP](https://github.com/dbojdo/downsampling) by dbojdo
-* [Python](https://github.com/devoxi/lttb-py) by Olivier Devoisin
-* [Python + Numpy](https://github.com/javiljoen/lttb.py) by Jack Viljoen
-* [Python using C](https://github.com/dgoeries/lttbc) by dgoeries
-* [Perl](https://github.com/troxel/LargestTriangleThreeBuckets) by troxel
 * [C++](https://github.com/parkertomatoes/lttb-cpp) by parkertomatoes
-* [Ruby](https://github.com/Jubke/lttb) by Julian Lübke
-* [Swift](https://github.com/GuillaumeBeal/LTTB) by Guillaume Beal
-* [Rust](https://github.com/jeromefroe/lttb-rs) by Jerome Froelich
+* [Chart.js Plugin](https://github.com/AlbinoDrought/chartjs-plugin-downsample) by Sean
 * [Clojure](https://github.com/viesti/clj-lttb) by Kimmo Koskinen
 * [Dart](https://github.com/bnap00/dart-lttb) by bnap00
+* [Elixir](https://github.com/ispirata/ex_lttb) by Riccardo Binetti
+* [Go](https://github.com/dgryski/go-lttb) by Damian Gryski
+* [Highcarts Plugin](https://github.com/sveinn-steinarsson/highcharts-downsample) by Sveinn Steinarsson
+* [Java8](https://github.com/ggalmazor/lt_downsampling_java8) by Guillermo Gutierrez Almazor
+* [Java](https://github.com/drcrane/downsample) by drcrane
+* [Javascript (without the flot plugin)](https://github.com/joshcarr/largest-triangle-three-buckets.js) by Josh Carr
+* [MSChartExtension in C#](https://github.com/Code-Artist/MSChartExtension/blob/master/MSChartExtension/DownSampling.cs) by Code Artist
+* [node.js](https://github.com/pingec/downsample-lttb) by Matej Drolc
+* [PHP](https://github.com/dbojdo/downsampling) by dbojdo
+* [Perl](https://github.com/troxel/LargestTriangleThreeBuckets) by troxel
+* [PostgreSQL Extension](https://github.com/timescale/timescaledb-toolkit/blob/main/extension/src/lttb.rs) by Brian Rowe
+* [Python + Numpy](https://github.com/javiljoen/lttb.py) by Jack Viljoen
+* [Python using C](https://github.com/dgoeries/lttbc) by dgoeries
+* [Python](https://github.com/devoxi/lttb-py) by Olivier Devoisin
+* [R](https://github.com/javiljoen/LTTB) by Jack Viljoen
+* [Ruby](https://github.com/Jubke/lttb) by Julian Lübke
+* [Rust](https://github.com/jeromefroe/lttb-rs) by Jerome Froelich
+* [Scala](https://github.com/tackley/smoothing) by Graham Tackley
+* [Swift](https://github.com/GuillaumeBeal/LTTB) by Guillaume Beal
 
 **Note:** I have not tested all these versions and some might have different or additional features.
 
