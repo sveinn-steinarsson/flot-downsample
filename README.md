@@ -51,7 +51,7 @@ Articles related to the algorithm (LTTB)
 * [Downsampling algorithms](http://www.adrian.idv.hk/2018-01-24-downsample/) by Adrian S. Tam
 * [Plot your data faster without losing its shape with Elixir and ExLTTB](https://blog.ispirata.com/plot-your-data-faster-without-losing-its-shape-with-elixir-and-exlttb-6917f6dd4f7e) by Riccardo Binetti
 * [Implementation of Downsampling Algorithm in MSChart Extension](https://www.codearteng.com/2020/08/implementation-of-downsampling.html) by Code Artist
-
+* [MinMaxLTTB: Leveraging MinMax-Preselection to Scale LTTB](https://arxiv.org/abs/2305.00332) by Jeroen & Jonas Van Der Donckt
 
 The algorithm (LTTB) adapted for other programming languages or frameworks
 -----
@@ -72,6 +72,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [Python](https://github.com/devoxi/lttb-py) by Olivier Devoisin
 * [Python + Numpy](https://github.com/javiljoen/lttb.py) by Jack Viljoen
 * [Python using C](https://github.com/dgoeries/lttbc) by dgoeries
+* [Python using Rust](https://github.com/predict-idlab/tsdownsample) by Jeroen Van Der Donckt
 * [Perl](https://github.com/troxel/LargestTriangleThreeBuckets) by troxel
 * [C++](https://github.com/parkertomatoes/lttb-cpp) by parkertomatoes
 * [Ruby](https://github.com/Jubke/lttb) by Julian Lübke
