@@ -14,6 +14,11 @@ The topic of the thesis is how to *downsample time series for visual representat
 and was initially suggested by [DataMarket](http://datamarket.com/). 
 JavaScript optimization was done with the help of [Borgar Þorsteinsson](https://github.com/borgar).
 
+Status
+----
+The Flot library is not commonly used nowadays, but the LTTB (Largest-Triangle-Three-Buckets) algorithm remains popular and is well-established for downsampling chart data.
+
+For using LTTB in other libraries or frameworks, you can refer to the [LTTB adapted for other programming languages or frameworks](https://github.com/sveinn-steinarsson/flot-downsample?tab=readme-ov-file#the-algorithm-lttb-adapted-for-other-programming-languages-or-frameworks) section.
 
 Demo
 ----
