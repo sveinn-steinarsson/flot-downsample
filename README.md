@@ -79,6 +79,7 @@ The algorithm (LTTB) adapted for other programming languages or frameworks
 * [Rust](https://github.com/jeromefroe/lttb-rs) by Jerome Froelich
 * [Clojure](https://github.com/viesti/clj-lttb) by Kimmo Koskinen
 * [Dart](https://github.com/bnap00/dart-lttb) by bnap00
+* [PL/PGSQL][https://github.com/rioriost/lttb-sql] by Rio Fujita
 
 **Note:** I have not tested all these versions and some might have different or additional features.
 
